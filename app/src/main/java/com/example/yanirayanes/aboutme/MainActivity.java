@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         intent.setType("image/*");
         intent.putExtra(Intent.EXTRA_STREAM, imageUri);
         intent.putExtra(Intent.EXTRA_TEXT, "Miguel Ernesto González\n"+"Ingenieria Informática\n\nFacebook: Miguel Ernesto González\nWhatsapp: 6420 - 9082\nGmail: 00145016@uca.edu.sv\nGithub: MickeyMiguel97\nG+: me.gyanes@gmail.com\nInstagram: @mickey.miguel\nYouTube: Miguel E. Yanes G.\nTwitter: @MiguelEYanesG1\n\nPOWERED BY MSSY");
-        choose = Intent.createChooser(intent,"Send Image");
+        choose = Intent.createChooser(intent,"Share ... ");
         startActivity(choose);
     }
 }
